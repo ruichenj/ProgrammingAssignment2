@@ -1,7 +1,11 @@
-## Put comments here that give an overall description of what your
-## functions do
+## I changed all "mean" functions to "inverse" for obtainig the inverse matrix.
+##  
 
-## Write a short comment describing this function
+## In the first section of the code, I firstly
+## set up a function to obtain numeric data.
+## then, by setting m <- NULL, the data section
+## is emptied for containing input data.
+## A list is set at last to obatin matrix data.
 
 makeCacheMatrix <- function(x = numeric()) {
   m <- NULL                ##inverse set to NULL in the beginning
@@ -19,7 +23,8 @@ makeCacheMatrix <- function(x = numeric()) {
 
 
 
-## Write a short comment describing this function
+## this section of code continues to obtain the inverse
+## of a matrix. 
 
 
 cacheSolve <- function(x, ...) {
